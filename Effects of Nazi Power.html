@@ -9,16 +9,16 @@
 h1 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 50px;
             text-align: center;
-            color: blue;}
+            color: red;}
 
             h2 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 30px;
             text-align: center;
-            color: blue;}
+            color: red;}
 
             p {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align: center;
-            color: blue;
+            color: red;
             font-size: 20px;}
 
             body {
@@ -28,22 +28,54 @@ h1 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             padding: 30px;
             background-size: 420px 240px;
             }
-            hr {height: 5px;border-width:0;color: blue;background-color: blue;}
+            hr {height: 5px;border-width:0;color: blue;background-color: red;}
 
             mark {
             background-color: white;
-            color: blue;
+            color: red;
             }
 
             div {
             width: auto;
             height: auto;
-            border: 10px solid blue;
+            border: 5px solid red;
             padding: 10px;
             margin: 10px;
             background-color: white;
             float:center;
             }
+            .column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+.column {
+  float: center;
+  width: 45%;
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#images{
+    text-align:center;
+    margin:50px auto; 
+}
+#images a{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+ }
 
         </style>
     </head>
@@ -53,21 +85,56 @@ h1 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     <hr>
     
     <div class="column">
+<h2>WW2</h2>
+<div id="images">
+    
+        <img src="WW2_German_March.gif" width="520px" height="270px">
+        <div class="caption">WW2 German March</div>
+    </a>
+    
+        <img src="hitlers ww2.jpg" width="520px" height="270px"> 
+        <div class="caption">Hitler in WW2</div>
 
-        <video width="320" height="240" autoplay muted>
+        <img src="battle of germany.jpg" width="520px" height="270px"> 
+        <div class="caption">Battle of Germany <br> Painting by Paul Nash <br> It shows a city under attack by aerial bombardment</div>
+    <video width="520" height="270" autoplay muted>
         <source src="World War II in Europe Every Day Trim.mp4" type="video/mp4">
         <source src="World War II in Europe Every Day Trim.mp4" type="video/ogg">
       Your browser does not support the video tag.
       </video>
-      <img src="WW2_German_March.gif" alt="WW2 German March" style="float:center;width:320px;height:240px;">
-      
-    <h2>WW2</h2>
-    <p>Hitler getting in power as a dictator meant he could do almost anything he wanted. Hitler destroyed the treaty of Versailles and raided Poland on 1 September 1939 to regain their territory they lost in WW1 and that's when war broke out. 30 countries got involved with the war and the estimated material cost for WW2 was $1,000,000,000,000. There was much suffering, 75 million were killed, 11 million were homeless, the economy had collapsed, and much land and infrastructure had been destroyed. 
+      <div class="caption">WW2 in Europe Every Day</div>
+    </a>
+
+</div>   
+    <p style="text-align:justify;">Hitler getting in power as a dictator meant he could do almost anything he wanted. Hitler destroyed the treaty of Versailles and raided Poland on 1 September 1939 to regain their territory they lost in WW1 and that's when war broke out. 30 countries got involved with the war and the estimated material cost for WW2 was $1,000,000,000,000. There was much suffering, 75 million were killed, 11 million were homeless, the economy had collapsed, and much land and infrastructure had been destroyed. 
     </p>
     </div>
 
+
+
     <div class="column">
+
     <h2>Holocaust</h2>
+
+    <div id="images">
+
+      <iframe width="520" height="270" src="https://www.youtube.com/embed/iQeDvnapdlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="caption">The Holocaust</div>
+      <img src="ceija-stojka.jpg" width="520px" height="270px">
+        <div class="caption">Ceija Stojka, Sans titre (Untitled), sans date (Undated), acrylic on board<br>This is a painting by Ceija Stojka of of her experience being taken to the concentration camps on the trains. </div>
+    </a>
+    
+        <img src="Untitled drawing (1).png" width="520px" height="270px"> 
+        <div class="caption">Concentation Camp Prisoner Uniform</div>
+
+        <img src="holocaust.jpg" width="520px" height="270px"> 
+        <div class="caption">The Prisoners of the Concentration Camp</div>
+   
+  
+    </a>
+
+</div>  
+
     <p>The Holocaust was a Genocide of Jews that happened from 1941 to 1945. Hitler and his Nazis killed over 6 million jews which was about two-thirds of the European Jew population. Firstly it started as Jew persecution. Anti-Semitic laws were passed, stripping human rights from Jews, then their Synagogues, stores, buildings and books were destroyed. Then the ‘Final Solution was put into action. The Jews were sent to concentration camps where they worked and were killed. 2,700,000 Jews were killed in the camps either by gas chambers or shooting. The Jews were tricked that the chambers were showers and when they all went in, they were gassed. 
     </p>
     </div>
